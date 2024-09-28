@@ -308,3 +308,71 @@ int main()
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#include <stdio.h>
+ int main()
+{
+	int x,y;
+	printf("请输入成绩\n");
+	scanf("%d",&x);
+     y=x/10;
+	 if(x>=0&&x<=100)
+   {switch(y)
+
+	   {
+   case 10: printf("成绩等级为:A\n");break;
+ 
+   case 9: printf("成绩等级为:A\n");break;
+        case 8: printf("成绩等级为:B\n");break;
+	     case 7: printf("成绩等级为:C\n");break;
+			   case 6: printf("成绩等级为:D\n");break;
+				   default: printf("成绩等级为:E\n");
+
+	 }}
+	 else
+		 printf("成绩无效");
+ 
+
+
+
+
+
+
+
+	return 0;
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
